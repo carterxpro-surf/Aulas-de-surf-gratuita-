@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ondas que Transformam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        #sobre {
+            background-color: #ffffff;
+        }
+        #fotos {
+            background-color: #e6f7ff;
+        }
+        #fotos img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        #doacoes {
+            background-color: #ffffff;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 1em;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ondas que Transformam</h1>
+        <p>Aulas de surf gratuitas em Ilhéus, promovendo a inclusão social de crianças carentes da região.</p>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>O projeto "Ondas que Transformam" oferece aulas de surf gratuitas para crianças carentes em Ilhéus, com o objetivo de promover a inclusão social, o desenvolvimento pessoal e o contato com a natureza. As aulas acontecem todos os domingos, em horários matinais, na praia principal de Ilhéus. Junte-se a nós para transformar vidas através das ondas!</p>
+    </section>
+
+    <section id="fotos">
+        <h2>Fotos das Crianças Surfando</h2>
+        <img src="https://images.unsplash.com/photo-1494791368077-4a0f9a89a1a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Criança surfando nas ondas">
+        <img src="https://images.unsplash.com/photo-1603048719539-9e0da91e8348?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Crianças brincando nas ondas">
+        <img src="https://images.unsplash.com/photo-1531608070514-727e9bb4b757?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Criança na praia com prancha de surf">
+    </section>
+
+    <section id="doacoes">
+        <h2>Faça uma Doação</h2>
+        <p>Ajude a manter o projeto vivo! Doe qualquer valor para apoiar equipamentos, instrutores e mais oportunidades para as crianças. Todas as doações são bem-vindas.</p>
+        <form action="#" method="post"> <!-- Substitua por uma URL real de processamento de doações, como PayPal ou similar -->
+            <label for="valor">Valor da Doação (R$):</label>
+            <input type="number" id="valor" name="valor" min="1" step="0.01" required>
+            <button type="submit">Doar Agora</button>
+        </form>
+        <p>Ou doe via PIX: chave-pix@ondasquetransformam.org (exemplo fictício - configure uma chave real).</p>
+        <p>Para integrar um botão de doação real, você pode usar serviços como PayPal ou PicPay. Aqui está um exemplo de código para botão PayPal: <br>
+        <code>&lt;form action="https://www.paypal.com/donate" method="post" target="_top"&gt;<br>
+        &lt;input type="hidden" name="hosted_button_id" value="SEU_ID_AQUI" /&gt;<br>
+        &lt;input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Faça doações com o botão do PayPal" /&gt;<br>
+        &lt;/form&gt;</code></p>
+    </section>
+
+    <footer>
+        <p>Contato:ondasquetranforma_@hotmail.com | Ilhéus, Bahia, Brasil</p>
+        <p>&copy; 2025 Ondas que Transformam. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
